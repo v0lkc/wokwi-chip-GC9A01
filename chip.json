@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "name": "GC9A01",
+  "author": "Christian Volk",
+  "license": "Apache-2.0",
+  "docs": "https://github.com/v0lkc/wokwi-chip-GC9A01",
+  "pins": [
+    "VCC",
+    "GND",
+    "SCL",
+    "SDA",
+    "DC",
+    "CS",
+    "RST"
+  ],
+  "display": {
+    "width": 240,
+    "height": 240
+  }
+}
