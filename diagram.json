@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "Christian Volk",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "rotate": 90, "attrs": {} },
+    { "type": "chip-GC9A01", "id": "tft1", "top": 50, "left": 350.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:TX", "$serialMonitor:RX", "green", [] ],
+    [ "uno:RX", "$serialMonitor:TX", "green", [] ],
+    [ "uno:3.3V", "tft1:VCC", "red", [ "h-27.3", "v-171.6", "h240", "v116.18" ] ],
+    [ "uno:GND.1", "tft1:GND", "black", [ "h20.6", "v-11.5", "h105.2" ] ],
+    [ "uno:10", "tft1:CS", "orange", [ "h49.4", "v237.7", "h336", "v-267.82" ] ],
+    [ "uno:7", "tft1:DC", "yellow", [ "h30.2", "v221.4", "h374.4", "v-296.62" ] ],
+    [ "uno:13", "tft1:CLK", "purple", [ "v0" ] ],
+    [ "uno:11", "tft1:DIN", "green", [ "h30.2", "v-30.22", "v0" ] ],
+    [ "uno:8", "tft1:RST", "blue", [ "h39.8", "v227.8", "h355.2", "v-296.62" ] ]
+  ],
+  "dependencies": {}
+}

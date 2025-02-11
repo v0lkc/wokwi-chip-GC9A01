@@ -1,7 +1,7 @@
 [wokwi]
 version = 1
-elf = 'test/blink/build/arduino.avr.uno/blink.ino.elf'
-firmware = 'test/blink/build/arduino.avr.uno/blink.ino.hex'
+elf = 'test/graphicstest/build/arduino.avr.uno/graphicstest.ino.elf'
+firmware = 'test/graphicstest/build/arduino.avr.uno/graphicstest.ino.hex'
 
 [[chip]]
 name = 'GC9A01'

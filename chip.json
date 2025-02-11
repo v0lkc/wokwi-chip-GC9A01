@@ -7,10 +7,10 @@
   "pins": [
     "VCC",
     "GND",
-    "SCL",
-    "SDA",
-    "DC",
+    "DIN",
+    "CLK",
     "CS",
+    "DC",
     "RST"
   ],
   "display": {
