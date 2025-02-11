@@ -7,11 +7,12 @@
   "pins": [
     "VCC",
     "GND",
-    "SCL",
-    "SDA",
-    "DC",
+    "DIN",
+    "CLK",
     "CS",
-    "RST"
+    "DC",
+    "RST",
+    "BL"
   ],
   "display": {
     "width": 240,
